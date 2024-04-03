@@ -94,7 +94,7 @@
           
   
           const fetchWeatherapi = async () => {
-            //   const API_KEY = "z88i8CQvOc4cPOxb9AgiuMBMa88IGOoLuQxKOGepBct5wWxBT4qGTUQVjJjxIB8%2Bk4WL51ZOr0hb5vwQxHACXA%3D%3D"
+           
 
                 // LCC DFS 좌표변환을 위한 기초 자료
     //

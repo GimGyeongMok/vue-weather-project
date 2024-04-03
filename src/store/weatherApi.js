@@ -97,7 +97,7 @@ export default {
     // context 안에는 state, getters, mutation을 활용할 수 있는 내용이 들어있다. 
     // mutations를 호출하기 위해서 context.mutations가 아니라, context.commit('뮤테이션 이름', payload) 형식으로 호출해야 한다
     async FETCH_WEATHER_API({ commit, state }) {
-      // const API_KEY = "z88i8CQvOc4cPOxb9AgiuMBMa88IGOoLuQxKOGepBct5wWxBT4qGTUQVjJjxIB8%2Bk4WL51ZOr0hb5vwQxHACXA%3D%3D"
+      
       let currentHour = dayjs().format('HH')
       if (currentHour >= '02' && currentHour < '05') {
         currentHour = '0200'
